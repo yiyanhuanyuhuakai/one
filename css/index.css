@@ -1,0 +1,183 @@
+            *{margin: 0;
+			  padding: 0;
+			  list-style: none;
+			  
+			}
+			a{
+				color: #666;
+				text-decoration: none;
+			}
+			a:hover{
+				color: #bbb;
+			}
+			body{
+				font-size: 14px;
+			
+			}
+			.top{
+				float: left;
+			}
+			.quandex img{
+				width: 1394px;
+				float: left;
+				margin-top: 0;
+			}
+			.logo img{
+				float: left;
+				margin-top: -120px;
+				margin-left: 300px;
+				width: 232px;
+				height: 84px;
+			}
+			.natews{
+				float: left;
+				margin-top: -150px;
+				margin-left: 945px;
+				font-size: 12px;
+				color: #FAFDFD;
+				font-family: "微软雅黑";
+			}
+			.banner img{
+				width: 1394px;
+			}
+			.main{
+				margin: 20px auto;
+				/*border: 1px solid #0f0;*/
+				clear: both;
+			}
+			.search{
+				height: 30px;
+				margin-bottom: 30px;
+				margin-top: 20px;
+			}
+			.from-box{
+				float: left;
+				padding-left: 300px;
+			}
+			.keywords{
+				width: 380px;
+				height: 28px;
+				margin-right: 15px;
+				border: 1px solid #a6a6a6;
+				border-radius: 3px;
+			}
+			.from-box select{
+				width: 105px;
+				height: 30px;
+			}
+			.select-btn{
+				width: 60px;
+				height: 30px;
+				margin-left:15px ;
+				border: none;
+				background-color:#000000 ;
+				border-radius: 3px;
+				color: #fff;
+			}
+			/*.help{
+				width: 230px;
+				text-align: right;
+			}*/
+			.help a{
+				line-height: 30px;
+				font-weight: bold;
+				margin-left: 20px;
+				font-family: "微软雅黑";
+			}
+			.nav{
+				width: 900px;
+				clear: both;
+				margin: 20px auto;
+			}
+			.nav dl{
+				width: 96px;
+				margin-top: 40px;
+				float: left;
+				margin-left: 50px;
+			}
+			.nav dt{
+				height: 90px;
+				border: 3px solid #ccc;
+				border-radius: 50%;
+				overflow: hidden;
+				background: #f00;
+			}
+			.nav dt img{
+				margin-top: -40px;
+			}
+			.nav dt a:hover img{
+				opacity: 0.5;
+			}
+			.nav dd{
+				margin: 10px 0;
+				text-align: center;
+			}
+			.nav dd a{
+				font-size: 14px;
+				font-weight: bold;
+			}
+			.books-list{
+				
+				margin: 30px auto;
+				margin-top: 250px;
+			}
+			.books-list ul{
+				overflow: hidden;
+			}
+			.books-list li{
+				float: left;
+				width: 355px;
+				margin-right: -140px;
+				padding: 10px 0 10px 25px;
+				line-height: 22px;
+				background: url(images/ic_class_grey600_18dp.png) -6px 5px no-repeat;
+				border-bottom: 1px solid #ccc;
+				margin-left: 260px;
+			}
+			.books-list li a{
+				margin-left: 10px;
+			}
+			.books-list li:nth-of-type(2n){margin-right: 0;}
+			.books-list li a,
+			.books-list li span{
+				display: inline-block;
+			}
+			.books-list li a:first-child{
+				width: 120px;
+			}
+			.books-list li a:last-child,
+			.books-list li span {
+				width: 100px;
+			}
+			.books-list li span{text-align: center;}
+			.books-list li a:last-child{text-align: right;}
+			.books-list li a:first-child,
+			.books-list li a:last-child{
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				vertical-align: middle;
+			}
+			.books-list li a,.books-list li span{
+				font-family: "微软雅黑";
+				font-size: 12px;
+			}
+			.more{
+				/*float: right;*/
+				display: block;
+				width: 50px;
+				height: 20px;
+				margin-top: 20px;
+				text-align: center;
+				line-height: 20px;
+				border-radius: 5px;
+				background-color: #eee;
+				margin-left: 1100px;
+			}
+			.footer{
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				background-color: #ccc;
+				color: #fff;
+			}
